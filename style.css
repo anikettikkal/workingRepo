@@ -1,0 +1,13 @@
+/*text decoration */
+.textfirst{
+    text-decoration: underline red;
+    text-align: center;
+}
+.texttwo{
+    text-decoration: line-through blue;
+    text-align: center;
+}
+.textthree{
+    text-decoration: underline overline green;
+    text-align: center;
+}
