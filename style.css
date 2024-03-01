@@ -11,3 +11,14 @@
     text-decoration: underline overline green;
     text-align: center;
 }
+
+/*color css property*/
+.builtincolor{
+    color: red;
+}
+.rgb{
+    color: rgb(100,200,190);
+}
+.hexadecimal{
+    color: #fdd333;
+}
