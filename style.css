@@ -22,3 +22,15 @@
 .hexadecimal{
     color: #fdd333;
 }
+
+/*text and backimage*/
+.myname{
+    font-size: 100px;
+    text-align: center;
+    margin-top: 10px;
+    background-size: cover;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqi1xVv49aQ5IYpMzD_k9y7ibgZVVJrX1DxYDFKAluf_1X0n66GjHRnKbZKNsEDHtCYcY&usqp=CAU");
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
