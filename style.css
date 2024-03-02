@@ -1,30 +1,34 @@
 /*text decoration */
-.textfirst{
+.textfirst {
     text-decoration: underline red;
     text-align: center;
 }
-.texttwo{
+
+.texttwo {
     text-decoration: line-through blue;
     text-align: center;
 }
-.textthree{
+
+.textthree {
     text-decoration: underline overline green;
     text-align: center;
 }
 
 /*color css property*/
-.builtincolor{
+.builtincolor {
     color: red;
 }
-.rgb{
-    color: rgb(100,200,190);
+
+.rgb {
+    color: rgb(100, 200, 190);
 }
-.hexadecimal{
+
+.hexadecimal {
     color: #fdd333;
 }
 
 /*text and backimage*/
-.myname{
+.myname {
     font-size: 100px;
     text-align: center;
     margin-top: 10px;
@@ -36,8 +40,8 @@
 }
 
 /*slider image animation*/
-.div{
-    height:20rem;
+.div {
+    height: 20rem;
     width: 36rem;
     background-size: 100% 100%;
     box-shadow: 20px 20px 10px grey;
@@ -45,20 +49,64 @@
     margin-left: auto;
     margin-right: auto;
 }
+
 @keyframes slider {
-    0%{
+    0% {
         background-image: url("https://img.freepik.com/free-photo/painting-mountain-lake-with-mountain-background_188544-9126.jpg?size=626&ext=jpg&ga=GA1.1.1395880969.1709337600&semt=sph");
     }
-    30%{
+
+    30% {
         background-image: url("https://i0.wp.com/picjumbo.com/wp-content/uploads/beautiful-nature-mountain-scenery-with-flowers-free-photo.jpg?w=600&quality=80");
     }
-    60%{
+
+    60% {
         background-image: url("https://wallpapers.com/images/featured/nature-2ygv7ssy2k0lxlzu.jpg");
     }
-    80%{
+
+    80% {
         background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRQfKqyDAXHpiwJTZKsUz_ZS6aRksDR42GiQ&usqp=CAU");
     }
-    100%{
+
+    100% {
         background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiB6O_lfxeRec_iL5xnCkXpYVSKcbR2ouoMA&usqp=CAU");
     }
+}
+
+/*section seprator */
+.container {
+    position: relative;
+    background: #2c3e50;
+    height: 50vh;
+}
+
+.wave {
+    position: absolute;
+    height: 145px;
+    width: 100%;
+    background: #2c3e50;
+    bottom: 0;
+}
+
+.wave::before,
+.wave::after {
+    content: "";
+    display: block;
+    position: absolute;
+    border-radius: 100% 50%;
+}
+
+.wave::before {
+    width: 55%;
+    height: 109%;
+    background-color: #fff;
+    right: -1.5%;
+    top: 60%;
+}
+
+.wave::after {
+    width: 55%;
+    height: 100%;
+    background-color: #2c3e50;
+    left: -1.5%;
+    top: 40%;
 }
