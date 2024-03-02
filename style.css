@@ -34,3 +34,31 @@
     -webkit-background-clip: text;
     color: transparent;
 }
+
+/*slider image animation*/
+.div{
+    height:20rem;
+    width: 36rem;
+    background-size: 100% 100%;
+    box-shadow: 20px 20px 10px grey;
+    animation: slider 10s linear infinite;
+    margin-left: auto;
+    margin-right: auto;
+}
+@keyframes slider {
+    0%{
+        background-image: url("https://img.freepik.com/free-photo/painting-mountain-lake-with-mountain-background_188544-9126.jpg?size=626&ext=jpg&ga=GA1.1.1395880969.1709337600&semt=sph");
+    }
+    30%{
+        background-image: url("https://i0.wp.com/picjumbo.com/wp-content/uploads/beautiful-nature-mountain-scenery-with-flowers-free-photo.jpg?w=600&quality=80");
+    }
+    60%{
+        background-image: url("https://wallpapers.com/images/featured/nature-2ygv7ssy2k0lxlzu.jpg");
+    }
+    80%{
+        background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRQfKqyDAXHpiwJTZKsUz_ZS6aRksDR42GiQ&usqp=CAU");
+    }
+    100%{
+        background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiB6O_lfxeRec_iL5xnCkXpYVSKcbR2ouoMA&usqp=CAU");
+    }
+}
