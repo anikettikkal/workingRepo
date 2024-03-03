@@ -120,10 +120,16 @@
     flex-wrap:wrap;
 }
 .maindiv{
+    text-align: center;
     margin-left: auto;
     margin-right: auto;
     margin-top: 20px;
     height: 200px;
     width: 300px;
     border: 5px solid black;
+}
+
+.imageAd{
+    aspect-ratio: 3/2;
+    object-fit: contain;
 }
