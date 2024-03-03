@@ -114,12 +114,13 @@
 
 
 /*responsive div*/
-.container{
+.container {
     display: flex;
     justify-content: space-between;
-    flex-wrap:wrap;
+    flex-wrap: wrap;
 }
-.maindiv{
+
+.maindiv {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
@@ -130,26 +131,29 @@
 }
 
 /*images fit*/
-.imageAd{
+.imageAd {
     aspect-ratio: 3/2;
     object-fit: contain;
 }
 
 /*imagefilter*/
-.imgfilter{
-    width:100%;
+.imgfilter {
+    width: 100%;
     filter: blur(1px);
 }
-.imgfilter1{
-    width:100%;
+
+.imgfilter1 {
+    width: 100%;
     filter: brightness(100%);
 }
-.imgfilter2{
-    width:100%;
+
+.imgfilter2 {
+    width: 100%;
     filter: grayscale(100%);
 
 }
-.imgfilter3{
-    width:100%;
-    filter:contrast(50%);
+
+.imgfilter3 {
+    width: 100%;
+    filter: contrast(50%);
 }
