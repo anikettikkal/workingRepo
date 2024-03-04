@@ -157,3 +157,14 @@
     width: 100%;
     filter: contrast(50%);
 }
+
+/*center container and make it responsive*/
+.containerCenter{
+    margin-top: 2rem;
+    width: 80%;
+    height: auto;
+    border: 5px solid rgb(37, 32, 27);
+    margin-left: auto;
+    margin-right: auto;
+    filter: drop-shadow(30px 30px 50px gray);
+}
